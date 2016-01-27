@@ -1,0 +1,10 @@
+<div class="{{cssClass}}">
+  <h1>{{data.title}}</h1>
+  <img ng-src="{{data.url}}"/>
+  <div class="info">
+    <div class="date">{{data.published}}</div>
+    <ul class="tags">
+      <li ng-repeat='tag in data.tags.split(" ")' ><button type="button" title="{{title}}" ng-click="selectTag(tag)">{{tag}}</button></li>
+    </ul>
+  </div>
+</div>

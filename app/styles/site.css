@@ -1,0 +1,61 @@
+
+.PhotoOutput{
+  width:100%;
+}
+.NoPhotoOutput{
+  margin:10px;
+}
+.pf{
+  margin-bottom:10px;
+  padding:5px;
+  border:1px solid #DDD;
+  background-color:#EEE;
+}
+.pf img{
+  background-color:#FFF;
+  width:100%;
+  margin:0px auto;
+}
+.pf .info{
+  background-color:#BBB;
+  color:#EEE;
+  font-size:9px;
+
+}
+.pf .info>.date{
+  padding-left:5px;
+}
+.pf>h1{
+  font-size:13px;
+  color:black;
+  margin: 0px;
+  padding:0px;
+  margin-bottom:4px;
+}
+.pf ul{
+  list-style: none;
+  padding:0px;
+  margin:0px;
+}
+.pf li{
+  float:left;
+  margin:0px;
+  padding:0px;
+
+}
+.pf .tags{
+  background-color:#EEE;
+  overflow:auto;
+  padding-top:5px;
+}
+.pf .info>.tags>li{
+  padding-left:5px;
+  color:#AAA;
+}
+
+.af{
+  float:right;
+  margin-right:2%;
+}
+
+
