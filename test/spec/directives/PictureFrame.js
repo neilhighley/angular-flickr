@@ -1,8 +1,7 @@
 'use strict';
 
-describe('AmountFilter', function() {
+describe('PictureFrame', function() {
   var element, scope, $compile, $templateCache, $timeout;
-
 
   beforeEach(inject(function ($rootScope, _$compile_, _$templateCache_, _$timeout_) {
     scope = $rootScope;
@@ -13,6 +12,7 @@ describe('AmountFilter', function() {
     element = angular.element(
       '<div>' +
       '</div>');
+
 
   }));
 
